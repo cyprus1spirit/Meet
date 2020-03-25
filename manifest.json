@@ -1,17 +1,17 @@
 {
    "app": {
       "launch": {
-         "local_path": "main.html"
-      }
+         "web_url": "https://meet.google.com/"
+      },
+      "urls": [ "*://meet.google.com/" ]
    },
-   "container": "GOOGLE_DRIVE",
-   "description": "Meet",
+   "default_locale": "en",
+   "description": "Meet Launcher",
    "icons": {
-      "128": "icon_128.png",
-      "16": "icon_16.png"
+      "128": "icon_128.png"
    },
    "manifest_version": 2,
    "name": "Meet",
-   "offline_enabled": true,
-   "version": "1.0"
+   "short_name": "Meet",
+   "version": "1.1"
 }

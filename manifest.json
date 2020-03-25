@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "main.html"
+      }
+   },
+   "container": "GOOGLE_DRIVE",
+   "description": "Meet",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png"
+   },
+   "manifest_version": 2,
+   "name": "Meet",
+   "offline_enabled": true,
+   "version": "1.0"
+}
